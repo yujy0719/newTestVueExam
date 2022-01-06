@@ -6,7 +6,7 @@
       <!--  v-on:keyup.enter  @keyup.enter  대체 가능 -->
     <!-- <input @keyup="whatodo" :value="text" type="text" id="inputText">     v-on:keyup.enter="addList"-->
     <input type="text" v-model="newPlan" >
-    <button v-on:click="addList" class="test_btn1">Click me!!!! </button>
+    <button v-on:click="addList" class="test_btn1">Click me!! </button>
     <hr>
     {{newPlan}}<br>
     <ul>
